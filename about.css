@@ -1,0 +1,33 @@
+body{
+    background-color: black;
+}
+#mat{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    margin-left: 10%;
+    margin-right:10%;
+    font-size: x-large;
+    border-bottom: 5px solid red;
+    border-top: 5px solid red;
+
+}
+
+#wel{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+#las{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: xx-large;
+    text-align: center;
+}

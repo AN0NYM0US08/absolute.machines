@@ -1,0 +1,210 @@
+body{
+    background-color: rgb(20, 19, 19);
+}
+
+#ab{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-top: 10px solid red;
+    border-radius: 15px;
+    font-size: x-large;
+    border-bottom: 1px solid red;
+    opacity: 0.8;
+}
+
+#bb > h2{
+    text-decoration: underline;
+    text-decoration-color: red;
+}
+#kon > h2{
+    text-decoration: underline;
+    text-decoration-color: red;
+}
+#lam > h2{
+    text-decoration: underline;
+    text-decoration-color: red;
+}
+#fer > h2{
+    text-decoration: underline;
+    text-decoration-color: red;
+}
+#mc > h2{
+    text-decoration: underline;
+    text-decoration-color: red;
+}
+#pa > h2{
+    text-decoration: underline;
+    text-decoration-color: red;
+}
+
+#ror{
+    color: rgb(8, 244, 224);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-bottom: 10px solid red;
+    border-radius: 15px;
+    opacity: 0.8;
+}
+
+#bk{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border: 5px solid rgb(30, 115, 130);
+    margin-top: 5px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+li{
+    font-size: larger;
+    list-style-type: none;
+}
+h3{
+    font-size: x-large;
+    text-decoration: underline;
+    text-decoration-color:rgb(30, 115, 130) ;
+}
+
+#vl{
+    margin-top: 30px;
+    margin-right: 120px;
+    height: 350px;
+    width: 10px;
+    background-color: rgb(30, 115, 130) ;
+    display: flex;
+    flex-direction: column;
+    border-radius: 40px;
+}
+
+#hr{
+    background-color: red;
+    height: 10px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    border-radius: 20px;
+    opacity: 0.8;
+}
+
+#lf{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border: 5px solid rgb(30, 115, 130);
+    margin-top: 10px;
+    text-align: center;
+    border-radius: 10px;
+}
+#vll{
+    margin-top: 30px;
+    margin-right: 85px;
+    height: 350px;
+    width: 10px;
+    background-color: rgb(30, 115, 130);
+    display: flex;
+    flex-direction: column;
+    border-radius: 60px;
+}
+#vlll{
+    margin-top: 30px;
+    margin-right: 100px;
+    height: 350px;
+    width: 10px;
+    background-color: rgb(30, 115, 130);
+    display: flex;
+    flex-direction: column;
+    border-radius: 60px;
+}
+
+#mp{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border: 5px solid rgb(30, 115, 130);
+    margin-top: 10px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+#more{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 25px;
+    margin-top: 40px;
+    border-bottom: 5px solid red;
+    border-radius: 15px;
+    opacity: 0.7;
+}
+
+img{
+    border-radius: 10px;
+    border-bottom: 5px solid gray;
+    border-right: 5px solid grey;
+}
+
+@media (max-width:1250px) {
+    #bk{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+    }
+    #lf{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+    }
+    
+    #mp{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+    }
+
+    #vl{
+        display: none;
+    }
+    #vll{
+        display: none;
+    }
+    #vlll{
+        display: none;
+    }
+    #hr1{
+        display: block;
+        margin-left: 10%;
+        margin-right: 5%;
+        width: 80%;
+        height: 3px;
+        background-color: rgb(30, 115, 130);
+
+    }
+    #hr2{
+        display: block;
+        margin-left: 10%;
+        margin-right: 5%;
+        width: 80%;
+        height: 3px;
+        background-color: rgb(30, 115, 130);
+
+    }
+    #hr3{
+        display: block;
+        margin-left: 10%;
+        margin-right: 5%;
+        width: 80%;
+        height: 3px;
+        background-color: rgb(30, 115, 130);
+
+    }
+    
+}
+

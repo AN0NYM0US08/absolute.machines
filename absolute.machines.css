@@ -1,0 +1,100 @@
+body{
+    background-image: url(login.webp);
+    background-size: cover;
+}
+
+#ab{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    border-bottom: 5px solid red;;
+    background-color: black;
+    border-radius: 10px;
+    justify-content: space-between;
+    text-align: center;
+    border-top: 1px solid red;
+}
+#ab > a{
+    font-size: 35px;
+    color: white;
+    text-decoration: none;
+
+}
+#ab > a:hover{
+    text-shadow: 0 0 10px aqua;
+    cursor: pointer;
+    color: white;
+}
+
+#head{
+    display: flex;
+    color: aliceblue;
+    flex-direction: row;
+    justify-content: center;
+    opacity: 0.7;
+    margin-top: 50px;
+    font-size: 25px;
+    text-align: center;
+}
+
+#bo{
+    border-top: 5px solid rgb(30, 115, 130);
+    color: white;
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 100px;
+    justify-content: center;
+    font-size: 25px;
+    opacity: 0.7;
+    text-align: center;
+}
+
+#world{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: white;
+    margin-top: 120px;
+    font-size: 20px;
+    text-align: center;
+}
+
+button{
+    color: white;
+    font-size: 30px;
+    border: 3px solid red;
+    border-radius: 40px;
+    height: 80px;
+    width: 200px;
+    background-color: black;
+    font-weight: 600;
+    box-shadow: inset 0 0 0 0 white;
+    transition: ease-out 0.2s;
+}
+
+button:hover{
+    box-shadow: inset 200px 0 0 0 white;
+    cursor: pointer;
+    color: black;
+
+}
+
+
+#but{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 40%;
+    margin-right: 40%;
+}
+
+@media (max-width:1250px) {
+
+    body{
+        display: flex;
+        flex-direction: column;
+    }
+}
